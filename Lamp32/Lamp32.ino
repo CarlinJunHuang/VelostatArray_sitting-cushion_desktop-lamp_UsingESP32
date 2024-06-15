@@ -7,13 +7,13 @@
 #define DATA_PIN 18  // 使用合适的GPIO引脚
 #define BRIGHTNESS 128  // 设置亮度，范围是0-255
 #define SSID "SDIM_DQ"
-#define WIFI_PASSWORD "doveqise"
-#define mqttServer "iot-06z00e6h7tf01ry.mqtt.iothub.aliyuncs.com"
+#define WIFI_PASSWORD "*****"
+#define mqttServer "*****.mqtt.iothub.aliyuncs.com"
 #define mqttPort 1883
-#define ClientId "k18xu5aauiH.ESP8266_lamp|securemode=2,signmethod=hmacsha256,timestamp=1716987940852|"
-#define User "ESP8266_lamp&k18xu5aauiH"
-#define Pass "563c31effc44c18d60f1733db20ece6d0fa8b3751acc1952dc3be6c36770c5b8"
-#define TOPIC "/k18xu5aauiH/ESP8266_lamp/user/get"
+#define ClientId "*****.ESP8266_lamp|securemode=2,signmethod=hmacsha256,timestamp=*****|"
+#define User "ESP8266_lamp&*****"
+#define Pass "**********"
+#define TOPIC "/*****/ESP8266_lamp/user/get"
 
 CRGB leds[NUM_LEDS];
 

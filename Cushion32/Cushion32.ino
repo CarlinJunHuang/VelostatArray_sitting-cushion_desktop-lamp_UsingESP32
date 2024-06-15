@@ -3,13 +3,13 @@
 #include <ArduinoJson.h>
 
 #define WIFI_SSID "SDIM_DQ"
-#define WIFI_PASSWORD "doveqise"
-#define MQTT_SERVER "iot-06z00e6h7tf01ry.mqtt.iothub.aliyuncs.com"
+#define WIFI_PASSWORD "*****"
+#define MQTT_SERVER "*****.mqtt.iothub.aliyuncs.com"
 #define MQTT_PORT 1883
-#define MQTT_CLIENT_ID "k18xu5aauiH.ESP32_sittingcushion|securemode=2,signmethod=hmacsha256,timestamp=1717413840296|"
-#define MQTT_USERNAME "ESP32_sittingcushion&k18xu5aauiH"
-#define MQTT_PASSWORD "8f7b9e2643f28ceb9b01c1304929cba8cd297f8ce72539a4433340ab343000cb"
-#define MQTT_TOPIC "/k18xu5aauiH/ESP32_sittingcushion/user/update"
+#define MQTT_CLIENT_ID "*****.ESP32_sittingcushion|securemode=2,signmethod=hmacsha256,timestamp=*****|"
+#define MQTT_USERNAME "ESP32_sittingcushion&*****"
+#define MQTT_PASSWORD "********"
+#define MQTT_TOPIC "/*****/ESP32_sittingcushion/user/update"
 
 WiFiClient espClient;
 PubSubClient client(espClient);
