@@ -88,6 +88,8 @@ void callback(char* topic, byte* payload, unsigned int length) {
         return;
     }
 
+    // Be careful to make sure if you need to unpack your parms first, or just postureData (for sure, this one is also defined by you in ur cloud JSON format.)
+    
     // JsonObject params = doc["params"];
     // JsonObject postureData = params["postureData"];
 
